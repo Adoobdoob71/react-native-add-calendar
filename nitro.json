@@ -1,0 +1,17 @@
+{
+  "cxxNamespace": ["addcalendar"],
+  "ios": {
+    "iosModuleName": "AddCalendar"
+  },
+  "android": {
+    "androidNamespace": ["addcalendar"],
+    "androidCxxLibName": "addcalendar"
+  },
+  "autolinking": {
+    "AddCalendar": {
+      "swift": "AddCalendar",
+      "kotlin": "AddCalendar"
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
