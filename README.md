@@ -1,6 +1,12 @@
 # react-native-add-calendar
 
-allows adding events to native device calendar
+Allows you to add events to the native device calendar
+
+[![npm version](https://img.shields.io/npm/v/react-native-add-calendar.svg?style=flat-square)](https://www.npmjs.com/package/react-native-add-calendar)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-add-calendar.svg?style=flat-square)](https://www.npmjs.com/package/react-native-add-calendar)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/react-native-add-calendar?style=flat-square)](https://bundlephobia.com/package/react-native-add-calendar)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Nitro Modules](https://img.shields.io/badge/built%20with-Nitro%20Modules-ff69b4.svg?style=flat-square)](https://nitro.margelo.com/)
 
 ## Installation
 
@@ -29,16 +35,20 @@ addEvent({
 
 ## Demo
 
-<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-  <figure style="margin: 0; text-align: center;">
-    <img src="media/ios_gif.gif" alt="iOS demo" width="360" />
-    <figcaption>iOS</figcaption>
-  </figure>
-  <figure style="margin: 0; text-align: center;">
-    <img src="media/android_gif.gif" alt="Android demo" width="360" />
-    <figcaption>Android</figcaption>
-  </figure>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="media/ios_gif.gif" alt="iOS demo" width="360" />
+      <br>
+      iOS
+    </td>
+    <td align="center">
+      <img src="media/android_gif.gif" alt="Android demo" width="360" />
+      <br>
+      Android
+    </td>
+  </tr>
+</table>
 
 ## iOS setup
 
