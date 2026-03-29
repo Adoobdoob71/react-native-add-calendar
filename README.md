@@ -13,7 +13,7 @@ Allows you to add events to the native device calendar
 ```sh
 npm install react-native-add-calendar react-native-nitro-modules
 
-> `react-native-nitro-modules` is required as this library relies on [Nitro Modules](https://nitro.margelo.com/).
+> `react-native-nitro-modules` is required as this library relies on Nitro Modules
 ```
 
 ## Usage
