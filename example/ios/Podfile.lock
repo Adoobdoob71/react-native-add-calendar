@@ -1,5 +1,5 @@
 PODS:
-  - AddCalendar (1.0.1):
+  - AddCalendar (1.0.5):
     - boost
     - DoubleConversion
     - fast_float
@@ -2760,7 +2760,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  AddCalendar: 1bea23a761afe26c1ca28d285fe97a76b77ade89
+  AddCalendar: 0056a319ae77a7f8a688bc2ebd4898baedd039d9
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: b32c788ed9c6a8c584d114d0047beda9664e7cc6
@@ -2843,4 +2843,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 720c47996bf07ddc6dfa25b8afdfa5d1308ee386
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.15.2

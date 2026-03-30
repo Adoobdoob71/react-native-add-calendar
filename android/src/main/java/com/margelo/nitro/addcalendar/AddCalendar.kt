@@ -22,11 +22,18 @@ class AddCalendar : HybridAddCalendarSpec() {
             val intent = Intent(Intent.ACTION_INSERT).apply {
                 data = CalendarContract.Events.CONTENT_URI
                 putExtra(CalendarContract.Events.TITLE, newEvent.title)
-                putExtra(CalendarContract.Events.DESCRIPTION, newEvent.description + "\n" + newEvent.url)
+								val fullDescription = if (newEvent.url != null) {
+										"${newEvent.description}\n${newEvent.url}"
+								} else {
+										newEvent.description
+								}			
+                putExtra(CalendarContract.Events.DESCRIPTION, fullDescription)
                 putExtra(CalendarContract.Events.EVENT_LOCATION, newEvent.location)
                 putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, newEvent.startDate.toLong())
                 putExtra(CalendarContract.EXTRA_EVENT_END_TIME, newEvent.endDate.toLong())
-                putExtra(CalendarContract.EXTRA_CUSTOM_APP_URI, newEvent.url)
+								newEvent.url?.let {
+										putExtra(CalendarContract.EXTRA_CUSTOM_APP_URI, it)
+								}
             }
 
             activity.startActivity(intent)

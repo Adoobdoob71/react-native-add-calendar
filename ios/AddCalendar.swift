@@ -42,7 +42,9 @@ class AddCalendar: HybridAddCalendarSpec {
         event.startDate = Date(timeIntervalSince1970: newEvent.startDate / 1000)
         event.endDate = Date(timeIntervalSince1970: newEvent.endDate / 1000)
         event.notes = newEvent.description
-        event.url = URL.init(string: newEvent.url)
+				if let urlString = newEvent.url {
+          event.url = URL(string: urlString)
+				}
         event.calendar = self.eventStore.defaultCalendarForNewEvents
 
         let uiCoordinator = CalendarUICoordinator(promise: promise)

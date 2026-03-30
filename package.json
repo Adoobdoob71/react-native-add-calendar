@@ -1,6 +1,6 @@
 {
   "name": "react-native-add-calendar",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "allows adding events to native device calendar",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",

@@ -26,8 +26,8 @@ import { addEvent } from 'react-native-add-calendar';
 addEvent({
   title: 'Hello world',
   description: 'Somewhere over the rainbow',
-  startDate: 1773759222723,
-  endDate: 1773999600000,
+  startDate: 1773759222723, // in milliseconds
+  endDate: 1773999600000, // in milliseconds
   location: 'Idk maybe over there',
   url: 'https://github.com/Adoobdoob71',
 });
