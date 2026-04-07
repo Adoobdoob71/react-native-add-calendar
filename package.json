@@ -173,7 +173,6 @@
   },
   "overrides": {
     "fast-xml-parser": "5.5.7",
-    "undici": "6.24.0",
-    "defu": "6.1.5"
+    "undici": "6.24.0"
   }
 }
